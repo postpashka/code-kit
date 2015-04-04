@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+{% load bootstrap_toolkit %}
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>django-bootstrap-toolkit = Bootstrap support for Django</title>
+    <meta name="description" content="">
+    {% bootstrap_stylesheet_tag %}
+    <style type="text/css">
+        body {
+            padding-top: 60px;
+        }
+    </style>
+    <!--[if lt IE 9]>
+<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+{% block extra_head %}{% endblock %}
+</head>
+
+<body>
+<div class="container">
+   
+   {% block content %}Empty page{% endblock %}
+
+    <p><hr></p>
+
+
+
+</div> <!-- container -->
+
+</body>
+</html>
