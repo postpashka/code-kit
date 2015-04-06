@@ -13,28 +13,14 @@ ADMINS = (
 
 MANAGERS = ADMINS
  
-# DATABASES = {
-  # 'default': {
-    # 'ENGINE': 'django.db.backends.postgresql_psycopg2',
-    # 'NAME': 'd91bd02u8k1t3t',
-    # 'HOST': 'ec2-54-83-204-85.compute-1.amazonaws.com',
-    # 'PORT': 5432,
-    # 'USER': 'kidiibjwbfsroz',
-    # 'PASSWORD': '65ePOAYgJvR5i3oDRaE_f8mVZp'
-  
-  
-  # }
-# }
-
-
 DATABASES = {
   'default': {
     'ENGINE': 'django.db.backends.postgresql_psycopg2',
-    'NAME': 'dfunclgkmapkqv',
-    'HOST': 'ec2-54-163-235-165.compute-1.amazonaws.com',
+    'NAME': 'd91bd02u8k1t3t',
+    'HOST': 'ec2-54-83-204-85.compute-1.amazonaws.com',
     'PORT': 5432,
-    'USER': 'zeqxbbrpcxccfg',
-    'PASSWORD': '_5f3tvd2BarzQ_uE9bBmiAhc75'
+    'USER': 'kidiibjwbfsroz',
+    'PASSWORD': '65ePOAYgJvR5i3oDRaE_f8mVZp'
   
   
   }
